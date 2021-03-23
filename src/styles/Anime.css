@@ -1,0 +1,59 @@
+.title-anime {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container-img-anime {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 15px;
+}
+
+.container-img-anime p {
+    font-size: 1.5rem;
+    font-family: monospace;
+    margin-left: 1rem;
+    
+}
+
+.container-img-anime img{
+    width: 35rem;
+}
+
+@media (max-width: 900px) {
+    .title-anime {
+        font-size: 1.5rem;
+    }
+    
+    .container-img-anime p {
+        font-size: .8rem;
+        
+    }
+    
+    .container-img-anime img{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 550px ){
+    .title-anime {
+        font-size: 1rem;
+    }
+
+    .container-img-anime {
+        grid-template-columns: 1fr;
+    }
+
+    .container-img-anime p {
+        font-size: .8rem;
+        
+    }
+    
+    .container-img-anime img{
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
